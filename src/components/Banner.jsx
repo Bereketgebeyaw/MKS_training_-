@@ -10,8 +10,8 @@ export default function Banner() {
         borderRadius: '6px',
         overflow: 'hidden',
         margin: '0 auto',
-        width: '1473px', // Set the width of the banner
-        height: '454px', // Set the height of the banner
+        width: '1473px', 
+        height: '454px', 
       }}
     >
       <img
@@ -28,8 +28,6 @@ export default function Banner() {
           position: 'absolute',
           bottom: 0,
           left: '50px',
-          
-          
           padding: '20px',
           boxSizing: 'border-box',
         }}

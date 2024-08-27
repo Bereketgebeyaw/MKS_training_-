@@ -44,8 +44,8 @@ export default function Header() {
         <div>
           <Button
             props={{
-              title: "GET A QUOTE",
-              color: "yellow",
+              title: "CONTACT US",
+              color: "#FCE207",
               padding: "10px 20px",
               textColor: "white",
             }}
