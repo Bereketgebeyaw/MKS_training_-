@@ -2,6 +2,8 @@ import Header from "./components/Header/Header"
 import Banner from './components/Banner';
 import Plan from "./components/Plan";
 import Button from "./components/Button/Button";
+import Service from "./components/service";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -71,6 +73,23 @@ const App = () => {
           />
         </div>
       </section>
+      <section style={{ padding: "20px", marginTop: "40px" }}>
+        <div style={{ display: "flex", justifyContent: "space-around" }}>
+          <Service 
+            title="WEB HOSTING"
+            description="The perfect Digital connection with endless possibilities, Digital Way"
+          />
+          <Service 
+            title="VPS HOSTING"
+            description="High Performance VPS Hosting For All Your Infrastructure Needs"
+          />
+          <Service 
+            title="IPTV"
+            description="Redefining the TV experience, a new way of watching your favorite news, entertainment, sport channels."
+          />
+        </div>
+      </section>
+      <Footer />
     </>
   );
 }
